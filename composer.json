@@ -13,14 +13,14 @@
     ],
     "require": {
         "php": ">=7.1",
-        "symfony/browser-kit": ">=4.0",
-        "symfony/css-selector": ">=4.0",
-        "symfony/dom-crawler": ">=4.0",
-        "symfony/http-client": ">=4.0",
-        "symfony/mime": ">=4.0"
+        "symfony/browser-kit": "*",
+        "symfony/css-selector": "*",
+        "symfony/dom-crawler": "*",
+        "symfony/http-client": "*",
+        "symfony/mime": "*"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^5.0"
+        "symfony/phpunit-bridge": "*"
     },
     "autoload": {
         "psr-4": { "Goutte\\": "Goutte" },
